@@ -11,17 +11,24 @@
 </head>
 <body>
 
-    <div class="row header">
-        <div class="column medium-4">
+    <div class="row header-large hide-for-small-only hide-for-medium-only show-for-large-up">
+        <div class="column small-4">
             <h3 style="color: #b0e0e6; text-shadow: 1px 2px mediumblue; font-weight: bold;">SABOR CHAPÍN</h3>
             <h5 class="text-right subheader" style="color: aliceblue; text-shadow: 1px 2px black;">El Paladar Guatemalteco</h5>           
         </div>
-        <div class="column medium-8"></div>
+        <div class="column small-8"></div>
+    </div>
+
+    <div class="row header-medium hide-for-large">
+        <div class="column">
+            <h3 class="text-center" style="color: #b0e0e6; text-shadow: 1px 2px mediumblue; font-weight: bold;">SABOR CHAPÍN</h3>
+            <h5 class="text-center subheader" style="color: aliceblue; text-shadow: 1px 2px black;">El Paladar Guatemalteco</h5>           
+        </div>
     </div>
 
     <div class="row content">
 
-        <div class="column medium-4 side-bar">
+        <div class="column small-12 large-4 side-bar">
             <div class="side-bar-content">
                 <div class="input-group">
                     <span class="input-group-label">
@@ -34,32 +41,35 @@
                     <li class="hollow button">Recetas Típicas</li>
                     <li class="hollow button">Mis Recetas</li>
                 </ul>
-                <br>
-                <strong>Favoritos:</strong>
-                <div class="row">
-                    <div class="column small-4"><a href="#"><img src="imgs/desayuno-chapin.jpg" alt="Desayno Chapín"></a></div>
-                    <div class="column small-4"><a href="#"><img src="imgs/dobladas.jpg" alt="Dobladas"></a></div>
-                    <div class="column small-4"><a href="#"><img src="imgs/kak-ik.jpg" alt="Kak'ik"></a></div>
+                <div class="hide-for-medium-only hide-for-small-only">
+                    <br>
+                    <strong>Favoritos:</strong>
+                    <div class="row">
+                        <div class="column small-4"><a href="#"><img src="imgs/desayuno-chapin.jpg" alt="Desayno Chapín"></a></div>
+                        <div class="column small-4"><a href="#"><img src="imgs/dobladas.jpg" alt="Dobladas"></a></div>
+                        <div class="column small-4"><a href="#"><img src="imgs/kak-ik.jpg" alt="Kak'ik"></a></div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="column small-4"><a href="#"><img src="imgs/pepian.jpg" alt="Pepian"></a></div>
+                        <div class="column small-4"><a href="#"><img src="imgs/rellenitos.jpg" alt="Rellenitos"></a></div>
+                        <div class="column small-4"><a href="#"><img src="imgs/tamalitos.jpg" alt="Tamalitos"></a></div>
+                    </div>
+                    <br>
+                    
+                    <strong>Historial:</strong>
+                    <ul class="no-bullet" style="margin-left:10px;">
+                        <li><a href="#">Kak'ik</a></li>
+                        <li><a href="#">Rellenitos</a></li>
+                        <li><a href="#">Tamalitos</a></li>
+                        <li><a href="#">Desayuno Chapín</a></li>
+                        <li><a href="#">Pepian</a></li>
+                    </ul>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="column small-4"><a href="#"><img src="imgs/pepian.jpg" alt="Pepian"></a></div>
-                    <div class="column small-4"><a href="#"><img src="imgs/rellenitos.jpg" alt="Rellenitos"></a></div>
-                    <div class="column small-4"><a href="#"><img src="imgs/tamalitos.jpg" alt="Tamalitos"></a></div>
-                </div>
-                <br>
-                <strong>Historial:</strong>
-                <ul class="no-bullet" style="margin-left:10px;">
-                    <li><a href="#">Kak'ik</a></li>
-                    <li><a href="#">Rellenitos</a></li>
-                    <li><a href="#">Tamalitos</a></li>
-                    <li><a href="#">Desayuno Chapín</a></li>
-                    <li><a href="#">Pepian</a></li>
-                </ul>
             </div>
         </div>
 
-        <div class="column medium-8">
+        <div class="column small-12 large-8">
 
             <div class="entrada">
                 <h4>Desayuno Chapín</h4>
@@ -70,8 +80,8 @@
                 <div class="comentarios">
                     <div class="comentario">
                         <div class="row collapse align-middle">
-                            <div class="column small-1">
-                                <img class="float-center" src="imgs/usuario-chica.png" alt="Imagen Usario" width="48">
+                            <div class="column small-1 hide-for-small-only">
+                                <img class="float-center" src="imgs/usuario-chica.png" alt="Imagen Usario">
                             </div>
                             <div class="column small-11 comentario-texto">
                                 <strong>Regina Paz</strong> | ¡Comenzar el día con un desayuno chapín es empezarlo de la mejor manera!
@@ -80,8 +90,8 @@
                     </div>
                     <div class="comentario">
                         <div class="row collapse align-middle">
-                            <div class="column small-1">
-                                <img class="float-center" src="imgs/usuario-chico.png" alt="Imagen Usario" width="48">
+                            <div class="column small-1 hide-for-small-only">
+                                <img class="float-center" src="imgs/usuario-chico.png" alt="Imagen Usario">
                             </div>
                             <div class="column small-11 comentario-texto">
                                 <strong>Alan Mendoza</strong> | Mi mamá prepara este platillo de la forma más deliciosa que pueda existir. !Amo el desayuno chapín!
@@ -90,8 +100,8 @@
                     </div>
                     <div class="comentario">
                         <div class="row collapse align-middle">
-                            <div class="column small-1">
-                                <img class="float-center" src="imgs/usuario-chica.png" alt="Imagen Usario" width="48">
+                            <div class="column small-1 hide-for-small-only">
+                                <img class="float-center" src="imgs/usuario-chica.png" alt="Imagen Usario">
                             </div>
                             <div class="column small-11 comentario-texto">
                                 <strong>Ana Fuentes</strong> | A mi esposo e hijos no les puede faltar este platillo. Al menos, tres veces por semana me lo exigen.
@@ -111,7 +121,7 @@
                 <div class="comentarios">
                     <div class="comentario">
                         <div class="row collapse align-middle">
-                            <div class="column small-1">
+                            <div class="column small-1 hide-for-small-only">
                                 <img class="float-center" src="imgs/usuario-chico.png" alt="Imagen Usario" width="48">
                             </div>
                             <div class="column small-11 comentario-texto">
@@ -121,7 +131,7 @@
                     </div>
                     <div class="comentario">
                         <div class="row collapse align-middle">
-                            <div class="column small-1">
+                            <div class="column small-1 hide-for-small-only">
                                 <img class="float-center" src="imgs/usuario-chico.png" alt="Imagen Usario" width="48">
                             </div>
                             <div class="column small-11 comentario-texto">
