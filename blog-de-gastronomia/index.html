@@ -12,52 +12,54 @@
 <body>
 
     <div class="row header">
-        <div class="columns medium-4">
-            <h3>SABOR CHAPÍN</h3>
-            <h5 class="text-right subheader">El Paladar Guatemalteco</h5>           
+        <div class="column medium-4">
+            <h3 style="color: #b0e0e6; text-shadow: 1px 2px mediumblue; font-weight: bold;">SABOR CHAPÍN</h3>
+            <h5 class="text-right subheader" style="color: aliceblue; text-shadow: 1px 2px black;">El Paladar Guatemalteco</h5>           
         </div>
-        <div class="columns medium-8"></div>
+        <div class="column medium-8"></div>
     </div>
 
     <div class="row content">
 
-        <div class="columns medium-4">
-            <div class="input-group">
-                <span class="input-group-label">
-                    <i class="fa fa-search"></i>
-                </span>
-                <input class="input-group-field" type="text" placeholder="Buscar...">
+        <div class="column medium-4 side-bar">
+            <div class="side-bar-content">
+                <div class="input-group">
+                    <span class="input-group-label">
+                        <i class="fa fa-search"></i>
+                    </span>
+                    <input class="input-group-field" type="text" placeholder="Buscar...">
+                </div>
+                <ul class="vertical menu">
+                    <li class="hollow button">Inicio</li>
+                    <li class="hollow button">Recetas Típicas</li>
+                    <li class="hollow button">Mis Recetas</li>
+                </ul>
+                <br>
+                <strong>Favoritos:</strong>
+                <div class="row">
+                    <div class="column small-4"><a href="#"><img src="imgs/desayuno-chapin.jpg" alt="Desayno Chapín"></a></div>
+                    <div class="column small-4"><a href="#"><img src="imgs/dobladas.jpg" alt="Dobladas"></a></div>
+                    <div class="column small-4"><a href="#"><img src="imgs/kak-ik.jpg" alt="Kak'ik"></a></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="column small-4"><a href="#"><img src="imgs/pepian.jpg" alt="Pepian"></a></div>
+                    <div class="column small-4"><a href="#"><img src="imgs/rellenitos.jpg" alt="Rellenitos"></a></div>
+                    <div class="column small-4"><a href="#"><img src="imgs/tamalitos.jpg" alt="Tamalitos"></a></div>
+                </div>
+                <br>
+                <strong>Historial:</strong>
+                <ul class="no-bullet" style="margin-left:10px;">
+                    <li><a href="#">Kak'ik</a></li>
+                    <li><a href="#">Rellenitos</a></li>
+                    <li><a href="#">Tamalitos</a></li>
+                    <li><a href="#">Desayuno Chapín</a></li>
+                    <li><a href="#">Pepian</a></li>
+                </ul>
             </div>
-            <ul class="vertical menu">
-                <li class="hollow button">Inicio</li>
-                <li class="hollow button">Recetas Típicas</li>
-                <li class="hollow button">Mis Recetas</li>
-            </ul>
-            <br>
-            <strong>Favoritos:</strong>
-            <div class="row">
-                <div class="columns small-4"><img src="imgs/desayuno-chapin.jpg" alt="Desayno Chapín"></div>
-                <div class="columns small-4"><img src="imgs/dobladas.jpg" alt="Dobladas"></div>
-                <div class="columns small-4"><img src="imgs/kak-ik.jpg" alt="Kak'ik"></div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="columns small-4"><img src="imgs/pepian.jpg" alt="Pepian"></div>
-                <div class="columns small-4"><img src="imgs/rellenitos.jpg" alt="Rellenitos"></div>
-                <div class="columns small-4"><img src="imgs/tamalitos.jpg" alt="Tamalitos"></div>
-            </div>
-            <br>
-            <strong>Historial:</strong>
-            <ul style="list-style:none; margin-left:10px;">
-                <li><a href="#">Kak'ik</a></li>
-                <li><a href="#">Rellenitos</a></li>
-                <li><a href="#">Tamalitos</a></li>
-                <li><a href="#">Desayuno Chapín</a></li>
-                <li><a href="#">Pepian</a></li>
-            </ul>
         </div>
 
-        <div class="columns medium-8">
+        <div class="column medium-8">
 
             <div class="entrada">
                 <h4>Desayuno Chapín</h4>
@@ -65,6 +67,38 @@
                 <img class="thumbnail" src="imgs/desayunofinal.jpg" alt="Desayuno Final" srcset="">
                 <p>El desayuno típico chapín es parte de los deliciosos platillos de Guatemala. Posee variados ingredientes dependiendo del lugar donde se prepare. Aunque nunca pueden faltar los frijoles, huevos, plátanos fritos, acompañados por un exquisito café guatemalteco. La presentación del platillo es distinta en varios lugares. Sin embargo, ese único sabor chapín es el mismo. Te compartimos una sencilla receta para que puedas prepararlo ¡Buen provecho!</p>
                 <textarea placeholder="Comentario..."></textarea>
+                <div class="comentarios">
+                    <div class="comentario">
+                        <div class="row collapse align-middle">
+                            <div class="column small-1">
+                                <img class="float-center" src="imgs/usuario-chica.png" alt="Imagen Usario" width="48">
+                            </div>
+                            <div class="column small-11 comentario-texto">
+                                <strong>Regina Paz</strong> | ¡Comenzar el día con un desayuno chapín es empezarlo de la mejor manera!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comentario">
+                        <div class="row collapse align-middle">
+                            <div class="column small-1">
+                                <img class="float-center" src="imgs/usuario-chico.png" alt="Imagen Usario" width="48">
+                            </div>
+                            <div class="column small-11 comentario-texto">
+                                <strong>Alan Mendoza</strong> | Mi mamá prepara este platillo de la forma más deliciosa que pueda existir. !Amo el desayuno chapín!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comentario">
+                        <div class="row collapse align-middle">
+                            <div class="column small-1">
+                                <img class="float-center" src="imgs/usuario-chica.png" alt="Imagen Usario" width="48">
+                            </div>
+                            <div class="column small-11 comentario-texto">
+                                <strong>Ana Fuentes</strong> | A mi esposo e hijos no les puede faltar este platillo. Al menos, tres veces por semana me lo exigen.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="entrada">
@@ -74,6 +108,28 @@
                 <p>El Kak’ik o Kaq’ik guatemalteco es un plato típico de Alta Verapaz. Según las tradiciones, es una receta que debe ser acompaña por el tamalito blanco envuelto en hoja de plátano.
                    El Kak’ik es conocido como caldo colorado de pavo o chunto, tradicional de Cobán. Al igual que el pepián y el jocón, fue declarado Patrimonio Cultural Intangible por el Ministerio de Cultura y Deportes, según Acuerdo Ministerial 801-2007.</p>
                 <textarea placeholder="Comentario..."></textarea>
+                <div class="comentarios">
+                    <div class="comentario">
+                        <div class="row collapse align-middle">
+                            <div class="column small-1">
+                                <img class="float-center" src="imgs/usuario-chico.png" alt="Imagen Usario" width="48">
+                            </div>
+                            <div class="column small-11 comentario-texto">
+                                <strong>Roberto Sosa</strong> | Yo nunca he probado este platillo, pero me han hablado maravillas. Se ve muy delicioso la verdad.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comentario">
+                        <div class="row collapse align-middle">
+                            <div class="column small-1">
+                                <img class="float-center" src="imgs/usuario-chico.png" alt="Imagen Usario" width="48">
+                            </div>
+                            <div class="column small-11 comentario-texto">
+                                <strong>Osvaldo Lopez</strong> | Cada que visitaba a mi familia en Alta Verapaz, mi tía preparaba este platillo y toda la familia se juntaba a convivir.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
