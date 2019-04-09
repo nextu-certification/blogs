@@ -1,17 +1,22 @@
 body{
     background: url(imgs/body_background.jpg);
+    background-size: cover;
 }
 
 .row {
     margin-bottom: 0 !important;
 }
 
-.container--head-logo img{
+.container--head-logo img.medium{
+    width: 30%;
+}
+
+.container--head-logo img.large{
     width: 100%;
 }
 
 .social li{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .gallery img {
@@ -34,6 +39,7 @@ body{
     background: #fff;
     border-radius: 7px;
     padding: 0.5rem;
+    margin-bottom: 1rem;
 }
 .autor img{
     width:86px;

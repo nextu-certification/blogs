@@ -14,31 +14,37 @@
 
     <div class="container">
 
-        <div class="row container--head">
-            <div class="col s3 container--head-logo">
-                <img src="imgs/logo.jpg" alt="Logo">
+        <div class="container--head row">
+            <div class="col s12 m12 l3 container--head-logo">
+                <div class="center-align" style="margin-top:10px;">
+                    <img class="medium hide-on-large-only" src="imgs/logo2.jpg" alt="Logo">
+                    <img class="large hide-on-med-and-down" src="imgs/logo2.jpg" alt="Logo">
+                </div>                
             </div>
-            <div class="col s9 container--head-menu">
-                <nav style="border: none; background: transparent; box-shadow: none;">
-                    <div class="nav-wrapper">
-                        <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a class="btn" href="#">Inicio</a></li>
-                        <li><a class="btn" href="#">Favoritos</a></li>
-                        <li><a class="btn" href="#">Promociones</a></li>
-                        </ul>
+            <div class="col s12 m12 l9 container--head-menu">
+                <div class="row hide-on-med-and-down">
+                    <nav style="border: none; background: transparent; box-shadow: none;">
+                        <div class="nav-wrapper">
+                            <ul id="nav-mobile" class="right">
+                            <li><a class="btn" href="#">Inicio</a></li>
+                            <li><a class="btn" href="#">Favoritos</a></li>
+                            <li><a class="btn" href="#">Promociones</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="hide-on-med-and-down">
+                        <p class="flow-text" style="margin:0 auto; text-shadow: 1px 1px #fff; font-weight: bold;">Un Morfín Por El Mundo</p>
                     </div>
-                </nav>   
-                
-                <div class="continer--head--slogan">
-                    <h5 style="margin-top: 3rem;">La Historia De Un Morfín Por El Mundo</h>
                 </div>
             </div>
         </div>
 
-        <div class="row container--body">
+        <div class="container--body">
 
             <div class="row" style="margin-bottom:0">
-                <div class="col s1">
+                <div class="col l1 hide-on-med-and-down">
                     <ul class="social">
                         <li><a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-square fa-4x" style="color:#3b5998"></i></a></li>
                         <li><a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube-square fa-4x" style="color:#b31217"></i></a></li>
@@ -47,27 +53,40 @@
                         <li><a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter-square fa-4x" style="color:#55acee"></i></a></li>                    
                     </ul>
                 </div>
-                <div class="col s11">
-                    <div class="row gallery valign-wrapper">
-                        <div class="col s4">
-                            <img class="responsive-img card" src="imgs/belice.jpg" alt="Belice">
-                            <img class="responsive-img card" src="imgs/honduras.jpg" alt="Honduras">
+                <div class="col l11">
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <div class="row gallery valign-wrapper">
+                                <div class="col s12 m12">
+                                    <img class="responsive-img card" src="imgs/belice.jpg" alt="Belice">
+                                    <img class="responsive-img card" src="imgs/honduras.jpg" alt="Honduras">
+                                </div>
+                            </div>
                         </div>
-                        <div class="col s4">
-                            <img class="responsive-img card" src="imgs/guatemala.jpg" alt="Guatemala">
+                        <div class="col s12 m4">
+                            <div class="row gallery">     
+                                <div class="col s12 m12">
+                                    <img class="responsive-img card" src="imgs/guatemala.jpg" alt="Guatemala">
+                                </div>    
+                            </div>
                         </div>
-                        <div class="col s4">
-                            <img class="responsive-img card" src="imgs/irlanda.JPG" alt="Irlanda">
-                            <img class="responsive-img card" src="imgs/mexico.jpg" alt="Mexico">
+                        <div class="col s12 m4">
+                            <div class="row gallery valign-wrapper">
+                                <div class="col s12 m12">
+                                    <img class="responsive-img card" src="imgs/irlanda.JPG" alt="Irlanda">
+                                    <img class="responsive-img card" src="imgs/mexico.jpg" alt="Mexico">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <hr>
 
             <div class="row">
-                <div class="col s9" style="padding:0 10px 0 0">   
+                <div class="col s12 m12 l8" style="padding:0">   
                     <div class="entrada">
                         <h5>Lago de Atitlán</h5>
                         <h6 style="color:gray">08-ABR-2019 | Sololá, Guatemala | 8 Comentarios</h6>
@@ -95,14 +114,14 @@
                             </div>
                             <div class="input-field col s12" style="padding:0">
                                 <i class="material-icons prefix">forum</i>
-                                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                <label for="textarea1">Agregar Comentario</label>
+                                <textarea id="textarea2" class="materialize-textarea"></textarea>
+                                <label for="textarea2">Agregar Comentario</label>
                             </div>
                         </div>                        
                     </div>                     
                   
                 </div>
-                <div class="col s3 autor">
+                <div class="col s12 m12 l3 push-l1 autor">
                     <div class="autor-head" style="text-align: center;">
                         <img src="imgs/frank.jpg" class="circle responsive-img">
                         <br>
