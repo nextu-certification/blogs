@@ -1,0 +1,41 @@
+body{
+    background: url(imgs/body_background.jpg);
+}
+
+.row {
+    margin-bottom: 0 !important;
+}
+
+.container--head-logo img{
+    width: 100%;
+}
+
+.social li{
+    margin-bottom: 1rem;
+}
+
+.gallery img {
+    width: 100%
+}
+
+.entrada {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+.entrada img{
+    width: 48%;
+    margin-right: 15px !important;
+}
+
+.autor{
+    background: #fff;
+    border-radius: 7px;
+    padding: 0.5rem;
+}
+.autor img{
+    width:86px;
+    margin-top: 10px;
+}
